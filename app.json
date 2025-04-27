@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Mercury",
+    "slug": "mercury-expo",
+    "version": "1.0.0",
+    "newArchEnabled": true,
+    "orientation": "portrait",
+    "scheme": "to.ninewinds.mercury.expo",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#080c10"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "to.ninewinds.mercury.expo"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#080c10"
+      },
+      "package": "to.ninewinds.mercury.expo"
+    },
+    "plugins": [
+      [
+        "expo-router"
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 28
+          }
+        }
+      ],
+      "expo-barcode-scanner"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f0c8e0e4-0a2f-4ec1-9719-2e7a0134df94"
+      }
+    }
+  }
+}
