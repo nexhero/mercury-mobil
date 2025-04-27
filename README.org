@@ -5,7 +5,7 @@
 Mercury is an peer-to-peer (P2P) note-taking application designed for seamless data syncing across multiple devices without the reliance on a central cloud server.
 
 * Local Synchronization:
-Sync notes directly between your devices,eliminating the need for internet access and reducing dependency on external servers.
+Sync notes directly between your devices,eliminating the need for external servers.
 
 
 
