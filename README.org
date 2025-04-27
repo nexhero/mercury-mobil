@@ -28,6 +28,5 @@ npm install
 Run project on android
 
 #+BEGIN_SRC shell
-# Example command to start the project
 npm run android
 #+END_SRC
