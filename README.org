@@ -1,0 +1,33 @@
+#+TITLE: Mercury Mobil
+#+LANGUAGE: en
+
+* Description
+Mercury is an peer-to-peer (P2P) note-taking application designed for seamless data syncing across multiple devices without the reliance on a central cloud server.
+
+* Local Synchronization:
+Sync notes directly between your devices,eliminating the need for internet access and reducing dependency on external servers.
+
+
+
+* Installation
+Make sure you have installed [[https://expo.dev/][Expo]] SDK
+
+#+BEGIN_SRC shell
+# Clone the repository
+git clone https://github.com/nexhero/mercury-mobil.git
+
+# Change directory
+cd mercury-mobil
+
+# Install dependencies
+npm install
+
+#+END_SRC
+
+* Usage
+Run project on android
+
+#+BEGIN_SRC shell
+# Example command to start the project
+npm run android
+#+END_SRC
